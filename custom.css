@@ -1,0 +1,82 @@
+:root {
+  --background: #282c34;
+  --surfacePrimary: #282c34;
+  --surfaceSecondary: #21252b;
+  --divider: #2c313c;
+  --icon: #79a1c7;
+  --textPrimary: rgba(255, 255, 255, 0.87);
+  --textSecondary: rgba(255, 255, 255, 0.6);
+}
+
+.share__box__info {
+  padding: 2em 3em;
+  background-color: #21252b;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.share__box__download {
+  width: 100%;
+  padding: 1em;
+  cursor: pointer;
+  background: #2c313c;
+  color: white;
+  font-size: 1.3em;
+}
+
+#login form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 20em;
+  width: 90%;
+  background-color: #21252b;
+  padding: 2em;
+}
+
+body {
+  background: var(--background);
+  color: var(--textPrimary);
+}
+
+#listing .item[aria-selected="true"] {
+  background: #334670 !important;
+  color: #fff !important;
+}
+
+.card#share ul li input,
+.card#share ul li select {
+  padding: 0.2em;
+  margin-right: 0.5em;
+  border: 1px solid #21252b;
+  background-color: var(--background);
+  color: white;
+}
+
+.share__box {
+  background: var(--background);
+  box-shadow: none;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0.67em 0;
+}
+
+#listing .item .name {
+  font-weight: 100;
+}
+
+.material-icons {
+  color: var(--icon);
+}
+
+.message {
+  color: white;
+}
+
+#previewer {
+  background-color: var(--background);
+}
