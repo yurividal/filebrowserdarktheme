@@ -34,6 +34,14 @@
   width: 90%;
   background-color: #21252b;
   padding: 2em;
+  border-radius: 15px;
+}
+
+#login h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0.4em 0 0.67em;
+  word-spacing: 100vw;
 }
 
 body {
