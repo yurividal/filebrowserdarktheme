@@ -7,4 +7,5 @@
 
 ## Screenshots
 ![sc1](/screenshots/sc1.png)  
-![sc2](/screenshots/sc2.png)
+![sc2](/screenshots/sc2.png)  
+![sc3](/screenshots/sc3.png)
